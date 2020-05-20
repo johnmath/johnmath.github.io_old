@@ -12,7 +12,7 @@ categories: machine learning
 
 
 
-```python
+{% highlight python %}
 def nadaraya_watson_estimator(x, X, Y, h, K=stats.norm.pdf):
     cols=[]
     for i in range(len(X)):
@@ -29,4 +29,4 @@ def nadaraya_watson_estimator(x, X, Y, h, K=stats.norm.pdf):
     result = np.matmul(W,Y)
     result.shape = (result.shape[0], 1)
     return result
-```
+{% endhighlight %}

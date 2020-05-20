@@ -12,14 +12,14 @@ I am also working on an undergraduate honor's thesis project under the guidance 
 ### Brief Background
 
 #### Education
-* BS Mathematics, Floida State University, 2021 (3.8/4.0)
+* **BS Mathematics**, *Floida State University*, 2021 (3.8/4.0)
 
 #### Work Experience
-* Tutorial Assistant, Florida State University, Fall 2018 - Spring 2019
-* Software Engineering Intern, [Sphero](https://sphero.com/) (Boulder, CO), Summer 2019
-* Learning Assistant, Florida State University, Fall 2019
-* Intern, [NewSci, LLC](newsci.ai)(Tallahassee, FL), Fall 2019 - Present
-* Software Engineering Intern, [Intuit](https://www.intuit.com/) (Mountain View, CA), Summer 2020
+* **Tutorial Assistant**, *Florida State University*, Fall 2018 - Spring 2019
+* **Software Engineering Intern**, *[Sphero](https://sphero.com/)* (Boulder, CO), Summer 2019
+* **Learning Assistant**, *Florida State University*, Fall 2019
+* **Intern**, *[NewSci, LLC](newsci.ai)* (Tallahassee, FL), Fall 2019 - Present
+* **Software Engineering Intern**, *[Intuit](https://www.intuit.com/)* (Mountain View, CA), Summer 2020
 
 #### Languages
 * Python, C++, JavaScript, MATLAB, Latex
@@ -28,9 +28,9 @@ I am also working on an undergraduate honor's thesis project under the guidance 
 * PyTorch, sci-kit learn, NumPy, Asyncio, Pandas, Keras, OpenCV, Matplotlib, PIL, Linux, Git, Jira, Jupyter
 
 #### Honors/Awards
-* HSF Scholar (2019 - 2020)
-* President's List (Fall 2017, Fall 2018)
-* Dean's List (Spring 2019, Fall 2019, Spring 2020)
+* **HSF Scholar** (2019 - 2020)
+* **President's List** (Fall 2017, Fall 2018)
+* **Dean's List** (Spring 2019, Fall 2019, Spring 2020)
 
 #### Contact
 * (listed below)
