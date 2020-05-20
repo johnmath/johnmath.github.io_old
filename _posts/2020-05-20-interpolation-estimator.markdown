@@ -6,3 +6,4 @@ categories: machine learning
 ---
 
 ![alt text](https://github.com/johnmath/johnmath.github.io/blob/master/media/sine_nw_singular.gif)
+{% gif https://github.com/johnmath/johnmath.github.io/blob/master/media/sine_nw_singular.gif %}
