@@ -6,4 +6,5 @@ categories: machine learning
 ---
 
 
-<img src="{{site.baseurl}}/media/sine_nw_singular.gif" alt="">
+
+<img src="{{site.baseurl}}./media/sine_nw_singular.gif" alt="">
