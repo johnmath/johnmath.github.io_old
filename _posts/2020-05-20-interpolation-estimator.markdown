@@ -7,4 +7,4 @@ categories: machine learning
 
 
 
-<img src="{{site.baseurl}}/media/sine_nw_singular.gif" alt="" style='height: 50%; width: 50%; object-fit: contain'>
+<img src="{{site.baseurl}}/media/sine_nw_singular.gif" alt="" style='height: 75%; width: 75%; object-fit: contain'>
