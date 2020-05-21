@@ -83,7 +83,7 @@ def singular_nadaraya_watson_estimator(x, X, Y, h, K=stats.norm.pdf, a=1):
     return result
 ```
 
-The two singular kernels we will be focusing on are
+The two singular kernels we will be focusing on are:
 
 <img src="{{site.baseurl}}/media/sing_kernel_1.png" alt="" style='height: 50%; width: 50%; object-fit: contain'>
 
