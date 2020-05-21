@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Reproducing 'Does data interpolation contradict statistical optimality?'"
-date:   2020-05-20 00:29:00 -0400
+date:   2020-05-20 20:35:00 -0400
 categories: machine learning
 ---
 ## Introduction
