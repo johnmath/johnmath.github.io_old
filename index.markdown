@@ -31,7 +31,7 @@ I am also working on an undergraduate honor's thesis project under the guidance 
 * **HSF Scholar** (2019 - 2020)
 * **President's List** (Fall 2017, Fall 2018)
 * **Dean's List** (Spring 2019, Fall 2019, Spring 2020)
-* **President** Society of Undergraduate Mathematics Majors (SUMS) at FSU
+* **President**, Society of Undergraduate Mathematics Majors (SUMS) at FSU
 
 #### Contact
 * (listed below)
