@@ -2,7 +2,7 @@
 layout: page
 title: About Me
 ---
-![image](media/me.jpg)
+![image](media/me.jpg =256x)
 I am a senior Pure Math major with minors in Computer Science and Physics at Florida State University.
 
 My main interests in math and computer science are theoretical computer science, algorithms, and machine learning theory. I am currently an intern at NewSci, LLC where I work on computer vision and machine learning projects. This summer, I will be a Software Engineering intern at Intuit.
