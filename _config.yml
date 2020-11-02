@@ -37,8 +37,7 @@ kramdown:
     default_lang: python
     css_class   : 'syntax'
 # Build settings
-# theme: chirpy
-remote_theme: broccolini/swiss
+theme: chirpy
 plugins:
   - jekyll-feed
   - jekyll-redirect-from
