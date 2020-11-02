@@ -31,14 +31,14 @@ I am also working on an undergraduate honor's thesis project under the guidance 
 #### Libraries/Tools
 * PyTorch, sci-kit learn, NumPy, Asyncio, Pandas, Keras, OpenCV, Matplotlib, PIL, Linux, Git, Jira, Jupyter, SQL, GraphQL
 
+#### Talks
+* **The Double Descent Phenomenon**, *MAP 6939 - Advanced Seminar in Applied Mathematics (Machine Learning Seminar)*
+
 #### Honors/Awards/Other
 * **HSF Scholar** (2019 - 2020, 2020 - 2021)
 * **President's List** (Fall 2017, Fall 2018)
 * **Dean's List** (Spring 2019, Fall 2019, Spring 2020)
 * **President**, Society of Undergraduate Mathematics Majors (SUMS) at FSU
-
-#### Talks
-* **The Double Descent Phenomenon**, *MAP 6939 - Advanced Seminar in Applied Mathematics (Machine Learning Seminar)*
 
 #### Contact
 * (listed below)
