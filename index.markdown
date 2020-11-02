@@ -22,7 +22,8 @@ I am also working on an undergraduate honor's thesis project under the guidance 
 * **Software Engineering Intern**, *[Sphero](https://sphero.com/)* (Boulder, CO), Summer 2019
 * **Learning Assistant**, *Florida State University*, Fall 2019
 * **Machine Learning Intern**, *[NewSci, LLC](newsci.ai)* (Tallahassee, FL), Fall 2019 - Present
-* **Software Engineering Intern**, *[Intuit](https://www.intuit.com/)* (Mountain View, CA), Summer 2020
+* **Software Engineering Intern (iOS)**, *[Intuit](https://www.intuit.com/)* (Mountain View, CA), Summer 2020
+* **Incoming Software Engineering Intern**, *[Intuit](https://www.intuit.com/)* (Mountain View, CA), Summer 2021
 
 #### Languages
 * Python, C++, Swift, JavaScript, MATLAB, Latex
