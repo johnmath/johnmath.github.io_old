@@ -37,7 +37,7 @@ kramdown:
     default_lang: python
     css_class   : 'syntax'
 # Build settings
-theme: slate
+theme: jekyll-theme-slate
 plugins:
   - jekyll-feed
   - jekyll-redirect-from
