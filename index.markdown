@@ -15,7 +15,7 @@ I am also working on an undergraduate honor's thesis project under the guidance 
 ### Brief Background
 
 #### Education
-* **BS Mathematics**, *Florida State University*, 2021 (3.77/4.00)
+* **BS Pure Mathematics**, *Florida State University*, 2021 (3.77/4.00)
 
 #### Work Experience
 * **Tutorial Assistant**, *Florida State University*, Fall 2018 - Spring 2019
@@ -28,13 +28,16 @@ I am also working on an undergraduate honor's thesis project under the guidance 
 * Python, C++, Swift, JavaScript, MATLAB, Latex
 
 #### Libraries/Tools
-* PyTorch, sci-kit learn, NumPy, Asyncio, Pandas, Keras, OpenCV, Matplotlib, PIL, Linux, Git, Jira, Jupyter, GraphQL
+* PyTorch, sci-kit learn, NumPy, Asyncio, Pandas, Keras, OpenCV, Matplotlib, PIL, Linux, Git, Jira, Jupyter, SQL, GraphQL
 
 #### Honors/Awards/Other
 * **HSF Scholar** (2019 - 2020, 2020 - 2021)
 * **President's List** (Fall 2017, Fall 2018)
 * **Dean's List** (Spring 2019, Fall 2019, Spring 2020)
 * **President**, Society of Undergraduate Mathematics Majors (SUMS) at FSU
+
+#### Talks
+* **The Double Descent Phenomenon**, *MAP 6939 - Advanced Seminar in Applied Mathematics (Machine Learning Seminar)*
 
 #### Contact
 * (listed below)
