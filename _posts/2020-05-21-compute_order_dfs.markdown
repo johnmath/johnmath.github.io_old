@@ -73,4 +73,65 @@ Now, we use the following algorithm to find the cyclic decomposition of $$\sigma
   
 *3:* Return `cycles`
 
+In Python code, this algorithm would be
+
+```python 
+def find_cyles(sigma):
+    """Find cycles of a map using a depth first search"""
+    
+    cycles = []
+    already_seen = set()
+    
+    for element in sigma.keys():
+        if element not in already_seen:
+            cycles.append(dfs(sigma, element, set(), []))
+            already_seen.update(cycles[-1])
+    
+    return cycles
+    
+def dfs(sigma, element, memo, cycle):
+    """DFS Helper Function"""
+    
+    if element in memo:
+        return
+    
+    memo.add(element)
+    dfs(sigma, sigma[element], memo, cycle)
+    return list(memo)
+```
+
+To find the order, we can use a [theorem](http://mathonline.wikidot.com/the-order-theorem-for-permutations) which states that the order, $$m$$,of a permutation is the least common multiple of the lengths of each cycle. By using this theorem, we can use the result from our DFS and avoid having to use the brute-force solution where we would compose $$\sigma$$ with itself until we map back to the original ordering of elements.
+
+```python 
+def find_order(cycle_list):
+    """Compute LCM of Cycle Lengths"""
+    
+    cycle_lengths = [len(x) for x in cycle_list]
+    
+    lcm = cycle_lengths[0]
+    for length in cycle_lengths[1:]:
+        lcm = lcm*length//gcd(lcm, length)
+    
+    return lcm
+```
+    
+Now that we have these Python functions, we can use them in conjunction to find the order and cyclic decomposition for any map that belongs to a finite symmetric group! (**Note:** the notation for the cyclic decomposition (1 3 6 7 9) (8 2 4) (10 5) refers to the disjoint cycles that are produced. 1 maps to 3, 3 maps to 6, and so on.)
+
+```python
+cycles = find_cyles(sigma)
+
+cycles_string = ''
+
+for cycle in cycles:
+    cycles_string += str(tuple(cycle)) + ' ' 
+
+print('The Cyclic Decomposition of Sigma is {}'.format(cycles_string))
+print('\nSigma has order {}'.format(find_order(cycles)))
+```
+```
+The Cyclic Decomposition of Sigma is (1, 3, 6, 7, 9) (8, 2, 4) (10, 5) 
+
+Sigma has order 30
+```
+
 
