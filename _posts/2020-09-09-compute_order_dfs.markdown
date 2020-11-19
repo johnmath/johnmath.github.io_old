@@ -100,7 +100,7 @@ def dfs(sigma, element, memo, cycle):
     return list(memo)
 ```
 
-**DFS (depth-first search)** is a graph traversal algorithm that starts at a "root" node and explores as far down that each of root's branches as possible before backtracking and moving onto the next branch. Below is a gif that shows how DFS traverses a graph (**Source**: https://codeforces.com/blog/entry/68138)
+**DFS (depth-first search)** is a graph traversal algorithm that starts at a "root" node and explores as far down that each of root's branches as possible before backtracking and moving onto the next branch. Below is a gif that shows how DFS traverses a graph ([**Source**](https://codeforces.com/blog/entry/68138))
 
 ![digraph](https://codeforces.com/predownloaded/8d/be/8dbe5d89e58b67f3d8e4d8e0e8eb3358ba921b28.png)
 
