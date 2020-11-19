@@ -40,8 +40,25 @@ $$ 10 \mapsto 5 $$
 
 If we repeat this individual mapping repeatedly, we will eventually encounter elements that map back to their original positions. While sitting in class, it became apparent that this process could be automated using a directed graph and a depth-first search algorithm. The nodes of the graph would represent the set elements and the edges would represent their mapping under $$\sigma$$. When the graph is drawn, the cyclic decompositions become obvious. The directed graph representing our $$\sigma$$ on the set of 10 symbols is the following:
 
-<img src="{{site.baseurl}}/media/digraph_cyclic.jpg" alt="" style='height: 50%; width: 50%; object-fit: contain'>
+<img src="{{site.baseurl}}/media/digraph_cyclic.jpg" alt="" style='height: 75%; width: 75%; object-fit: contain'>
+
+Now that we can see the cycles in the form of a directed graph, let's take a look at the code that would allow us to generalize the process of finding the cyclic decomposition adn order of any permutaion.
 
 ## Code 
+
+```python
+from math import gcd
+```
+
+Firstly, we can use a dictionary to stand in as our $$\sigma$$ as dictionaries have keys that map to values. Since our $$\sigma$$ is bijective, a dictionary with unique (key, value) pairs is precisely what we need.
+
+```python 
+sigma = {1: 3, 2: 4, 3: 6, 4: 8, 5: 10, 6: 7, 7: 9, 8: 2, 9: 1, 10: 5}
+```
+```
+dict_keys([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+dict_values([3, 4, 6, 8, 10, 7, 9, 2, 1, 5])
+```
+
 
 
