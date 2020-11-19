@@ -1,8 +1,10 @@
 ---
 layout: post
-title:  "Computing the Cyclic Decomposition of a Symmetric Group Using DFS"
-date:   2020-05-21 20:35:00 -0400
+title:  "Computing the Cyclic Decomposition and Order of Elements from Symmetric Groups"
+date:   2020-09-09 20:35:00 -0400
 categories: algorithms
 ---
 
-test
+## Introduction 
+
+I am currently taking an introductory class in abstract algebra, and we have been learning about different types of groups. One of these groups is called the **Symmetric Group**. The symmetric group defined over any set ,$$\Omega$$, is denoted as $$S_{\Omega}$$
