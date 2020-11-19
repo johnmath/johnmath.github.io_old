@@ -5,7 +5,7 @@ date:   2020-09-09 20:35:00 -0400
 categories: algorithms
 ---
 
-## Introduction 
+## Math Background and Introduction 
 
 I am currently taking an introductory class in abstract algebra, and we have been learning about different types of groups. One of these groups is called the **Symmetric Group**. The symmetric group defined over any set , $$\Omega$$, is denoted as $$S_{\Omega}$$. This group is comprised of all of the bijections, $$\sigma : \Omega \rightarrow \Omega$$. of the set onto itself, and its group operation is defined as the composition of these bijections. Since we will be looking at finite symmetric groups, we can denote the symmetric group over a finite set of $$n$$ symbols as $S_{n}$.
 
@@ -38,7 +38,8 @@ $$ 9 \mapsto 1 $$
 
 $$ 10 \mapsto 5 $$
 
+If we repeat this individual mapping repeatedly, we will eventually encounter elements that map back to their original positions. While sitting in class, it became apparent that this process could be automated using a directed graph and a depth-first search algorithm. The nodes of the graph would represent the set elements and the edges would represent their mapping under $$\sigma$$. When the graph is drawn, the cyclic decompositions become obvious. The directed graph representing our $$\sigma$$ on the set of 10 symbols is the following. 
 
-## Math and Code 
+## Code 
 
 
