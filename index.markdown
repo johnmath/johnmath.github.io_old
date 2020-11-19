@@ -33,6 +33,7 @@ I am also working on an undergraduate honor's thesis project under the guidance 
 
 #### Talks
 * **The Double Descent Phenomenon**, *MAP 6939 - Advanced Seminar in Applied Mathematics (Machine Learning Seminar)*
+  * [Slides and Animations](https://drive.google.com/drive/folders/1LPjlJgGP9LCQwzYvfTSls0SKK7ToRXJH?usp=sharing)
 
 #### Honors/Awards/Other
 * **HSF Scholar** (2019 - 2020, 2020 - 2021)
