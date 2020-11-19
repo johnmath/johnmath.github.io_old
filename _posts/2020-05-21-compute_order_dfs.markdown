@@ -14,7 +14,7 @@ An example of an element in $$S_{10}$$ could be the permutation (map) $$\sigma$$
 
 (i.e. $$\sigma([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]) = [3, 4, 6, 8, 10, 7, 9, 2, 1, 5]$$)
 
-Now that we know how the elements of $$S_{n}$$ act on the underlying set, what are their cyclic decompositions and orders? The **order** of an element in a group refers to the smallest positive integer, $$m$$ such that $$\sigma^{m} = \sigma \circ \sigma \circ ... \circ \sigma = \textbf{id}$$ ( \textbf{id} is that group's identity element). The **cyclic decomposition** of one of these group elements refers to the "cycles" formed when repeatedly applying the same permutation on the underlying set. In other words, the cyclic decomposition refers to the "path" that each individual set element takes under a repeated permutation to get mapped back to itself.
+Now that we know how the elements of $$S_{n}$$ act on the underlying set, what are their cyclic decompositions and orders? The **order** of an element in a group refers to the smallest positive integer, $$m$$ such that $$\sigma^{m} = \sigma \circ \sigma \circ ... \circ \sigma = \textbf{id}$$ where **id** is that group's identity element. The **cyclic decomposition** of one of these group elements refers to the "cycles" formed when repeatedly applying the same permutation on the underlying set. In other words, the cyclic decomposition refers to the "path" that each individual set element takes under a repeated permutation to get mapped back to itself.
 
 Viewing the permutation as a mapping of individual elements instead of a rearrangement of the entire set can aid in understanding how cyclic decompositions and repeated permutations work. Using the $$\sigma$$ that we defined above, we can write out the following mapping:
 
@@ -60,5 +60,12 @@ dict_keys([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
 dict_values([3, 4, 6, 8, 10, 7, 9, 2, 1, 5])
 ```
 
+Now, we use the following algorithm to find the cyclic decomposition of $$\sigma$$:
+
+1: Instantiate an array, `cycles` to store cycles and a set, `already_seen` to store elements that have been encountered
+2: Iterate over the values of the underlying set
+  2.1: **IF** the current value is not in `already_seen`, use DFS until the value is repeated. 
+  2.2: Append every element seen to `cycles` and update `already_seen` to include these elements.
+3: Return `cycles`
 
 
