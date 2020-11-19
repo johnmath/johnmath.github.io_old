@@ -66,9 +66,9 @@ Now, we use the following algorithm to find the cyclic decomposition of $$\sigma
 
 2: Iterate over the values of the underlying set
 
-  2.1: **IF** the current value is not in `already_seen`, use DFS until the value is repeated. 
+  * **IF** the current value is not in `already_seen`, use DFS until the value is repeated. 
   
-  2.2: Append every element seen to `cycles` and update `already_seen` to include these elements.
+  * Append every element seen to `cycles` and update `already_seen` to include these elements.
   
 3: Return `cycles`
 
