@@ -100,6 +100,10 @@ def dfs(sigma, element, memo, cycle):
     return list(memo)
 ```
 
+**DFS (depth-first search)** is a graph traversal algorithm that starts at a "root" node and explores as far down that each of root's branches as possible before backtracking and moving onto the next branch. Below is a gif that shows how DFS works on a 
+
+![digraph](https://codeforces.com/predownloaded/8d/be/8dbe5d89e58b67f3d8e4d8e0e8eb3358ba921b28.png)
+
 To find the order, we can use a [theorem](http://mathonline.wikidot.com/the-order-theorem-for-permutations) which states that the order, $$m$$,of a permutation is the least common multiple of the lengths of each cycle. By using this theorem, we can use the result from our DFS and avoid having to use the brute-force solution where we would compose $$\sigma$$ with itself until we map back to the original ordering of elements.
 
 ```python 
@@ -134,4 +138,7 @@ The Cyclic Decomposition of Sigma is (1, 3, 6, 7, 9) (8, 2, 4) (10, 5)
 Sigma has order 30
 ```
 
+## Conclusion 
+
+Graphs are an extremely versitile tool that allow us to represent both abstract mathematical objects and physical networks as data in memory. By using DFS, we can traverse these graphs that represent the permutations of a set to learn more about their underlying structures... and we can automate some problems from our abstract algebra homework. 
 
