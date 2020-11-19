@@ -62,14 +62,15 @@ dict_values([3, 4, 6, 8, 10, 7, 9, 2, 1, 5])
 
 Now, we use the following algorithm to find the cyclic decomposition of $$\sigma$$:
 
-1: Instantiate an array, `cycles` to store cycles and a set, `already_seen` to store elements that have been encountered
 
-2: Iterate over the values of the underlying set
+*1:* Instantiate an array, `cycles` to store cycles and a set, `already_seen` to store elements that have been encountered
+
+*2:* Iterate over the values of the underlying set
 
   * **IF** the current value is not in `already_seen`, use DFS to repeat $$\sigma$$ until the value is repeated. 
   
-   * Append every element seen to `cycles` and update `already_seen` to include these elements.
+    * Append every element seen to `cycles` and update `already_seen` to include these elements.
   
-3: Return `cycles`
+*3:* Return `cycles`
 
 
