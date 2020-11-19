@@ -18,8 +18,7 @@ Now that we know how the elements of $$S_{n}$$ act on the underlying set, what a
 
 Viewing the permutation as a mapping of individual elements instead of a rearrangement of the entire set can aid in understanding how cyclic decompositions and repeated permutations work. Using the $$\sigma$$ that we defined above, we can write out the following mapping:
 
-$$
-\newline 1 \mapsto  3
+$$\newline 1 \mapsto  3
 \newline 2 \mapsto 4
 \newline 3 \mapsto 6
 \newline 4 \mapsto 8
@@ -28,8 +27,7 @@ $$
 \newline 7 \mapsto 9
 \newline 8 \mapsto 2
 \newline 9 \mapsto 1
-\newline 10 \mapsto 5
-$$ 
+\newline 10 \mapsto 5$$ 
 
 ## Math and Code 
 
