@@ -8,7 +8,7 @@ title: About Me
 
 I am a senior Pure Math major with minors in Computer Science and Physics at Florida State University.
 
-My main interests in math and computer science are complexity theory, machine learning theory, and the applications of algorithms to problems within algebra and number theory. I am currently a machine learning intern at NewSci, LLC where I work on computer vision and machine learning projects. Last summer, I was a Software Engineering intern at Intuit. I worked on a new, unreleased iOS app for QuickBooks on a team of 5 interns.
+My academic interests are broadly in the area of theoretical computer science. This includes algorithms, complexity theory, learning theory, and the mathematics that underlies them. I am currently a machine learning intern at NewSci, LLC where I work on computer vision and machine learning projects. Last summer, I was a Software Engineering intern at Intuit. I worked on a new iOS app for QuickBooks Payroll on a team of 5 interns.
 
 I am also working on an undergraduate honor's thesis project under the guidance of [Alec Kercheval](https://www.math.fsu.edu/~kercheva/) and [Nathan Crock](https://www.sc.fsu.edu/people?uid=ndc08). The topic of the project is the "double descent" phenomenon. We are aiming to create an open source platform that will allow researchers to conduct standardized tests on models that exhibit double descent. I will be defending my honor's thesis at the end of Spring 2021.
 
