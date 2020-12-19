@@ -5,4 +5,4 @@ date:   2020-12-01 20:35:00 -0400
 categories: mathematics
 ---
 
-$$F_{n} = \frac{1}{\sqrt{5}} \left( $$
+$$F_{n} = \frac{1}{\sqrt{5}} \left( \left( \frac{1 + \sqrt{5}}{2} \right)^{n} -  \left( \frac{1 - \sqrt{5}}{2} \right)^{n} \right)$$
