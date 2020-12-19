@@ -11,11 +11,11 @@ where $$F_{n}$$ is the $$n^{th}$$ Fibonacci number (the recursive definition for
 
 Typically, Binet's formula over $$\mathbb{N}$$ gives us $$F_{1} = 1, F_{2} = 1, F_{3} = 2$$ ..., but what happens when we use Binet's formula to find the "$$0.5^{th}$$ Fibonacci number" or the "$$\pi^{th}$$ Fibonacci number" (if they even exist)? Well, if we try to find $$F_{\pi}$$, what we end up with is roughly $$2.1170270579161 + 0.04243591168476099i$$. We end up with complex numbers because trying to find $$F_{n}$$ where $$n \not\in \mathbb{N}$$ leads to complex outputs. So, let's take a look at the outputs of Binet's formula over some continuous, real domain (e.g. $$\left[0, 5\right]$$).
 
-<img src="{{site.baseurl}}/media/binet-0-5.gif" alt="" style='height: 75%; width: 75%; object-fit: contain'>
+<img align="center" src="{{site.baseurl}}/media/binet-0-5.gif" alt="" style='height: 75%; width: 75%; object-fit: contain'>
 
 Notice that the only places where Binet's formula has real outputs on this interval are at the natural numbers, where the outputs are the typical Fibonacci numbers. What about the "negative Fibonacci numbers? Let's see what the outputs of Binet's formula look like on the interval $$\left[-5, 0\right]$$.
 
-<img src="{{site.baseurl}}/media/binet-neg5-0.gif" alt="" style='height: 75%; width: 75%; object-fit: contain'>
+<img align="center" src="{{site.baseurl}}/media/binet-neg5-0.gif" alt="" style='height: 75%; width: 75%; object-fit: contain'>
 
 We end up with $$F_{-1} = 1, F_{-2} = -1, F_{-3} = 2, F_{-4} = -3$$ ... This large spiral that's travelling around the complex plane actually intersects the real line at the usual Fibonacci numbers with alternating signs! There is actually a generalization of the typical recurrence relation that allows us to have negative values for $$n$$. $$F_{-n} = \left(-1\right)^{n+1}F_{n}$$ 
 
