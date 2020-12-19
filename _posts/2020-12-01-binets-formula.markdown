@@ -9,5 +9,8 @@ Binet's Formula: $$F_{n} = \frac{1}{\sqrt{5}} \left(\left(\frac{1 + \sqrt{5}}{2}
 
 where $$F_{n}$$ is the $$n^{th}$$ Fibonacci number
 
-Typically, Binet's formula over $$\mathbb{N}$$ gives us $$F_{1} = 1, F_{2} = 1, F_{3} = 2$$ ..., but what happens when we use Binet's formula to find the "$$0.5^{th}$$ Fibonacci number" or the "$$\pi^{th}$$ Fibonacci number"?
+Typically, Binet's formula over $$\mathbb{N}$$ gives us $$F_{1} = 1, F_{2} = 1, F_{3} = 2$$ ..., but what happens when we use Binet's formula to find the "$$0.5^{th}$$ Fibonacci number" or the "$$\pi^{th}$$ Fibonacci number" (if they even exist)?
 
+<img src="{{site.baseurl}}/media/binet-0-5.png" alt="" style='height: 50%; width: 50%; object-fit: contain'>
+
+<img src="{{site.baseurl}}/media/binet-neg5-0.png" alt="" style='height: 50%; width: 50%; object-fit: contain'>
