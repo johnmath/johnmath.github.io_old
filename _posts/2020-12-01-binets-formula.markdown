@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Binet's Formula over an interval of Real Numbers"
+title:  "Binet's Formula and Extensions of the Fibonacci Numbers"
 date:   2020-12-01 20:35:00 -0400
 categories: number theory
 ---
