@@ -13,7 +13,7 @@ Typically, Binet's formula over $$\mathbb{N}$$ gives us $$F_{1} = 1, F_{2} = 1, 
 
 <img align="center" src="{{site.baseurl}}/media/binet-0-5.gif" alt="" style='height: 75%; width: 75%; object-fit: contain'>
 
-Notice that the only places where Binet's formula has real outputs on this interval are at the natural numbers, where the outputs are the typical Fibonacci numbers. What about the "negative Fibonacci numbers? Let's see what the outputs of Binet's formula look like on the interval $$\left[-5, 0\right]$$.
+Notice that the only places where Binet's formula has real outputs on this interval are at the natural numbers, where the outputs are the typical Fibonacci numbers. What about the "negative Fibonacci numbers"? Let's see what the outputs of Binet's formula look like on the interval $$\left[-5, 0\right]$$.
 
 <img align="center" src="{{site.baseurl}}/media/binet-neg5-0.gif" alt="" style='height: 75%; width: 75%; object-fit: contain'>
 
