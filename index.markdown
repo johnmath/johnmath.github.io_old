@@ -15,7 +15,7 @@ I am also working on an undergraduate honor's thesis project under the guidance 
 ### Brief Background
 
 #### Education
-* **Bachelor of Science in Mathematics**, *Florida State University*, 2021 (3.77/4.00)
+* **Bachelor of Science in Mathematics**, *Florida State University*, 2021 (3.8/4.0)
 
 #### Work Experience
 * **Tutorial Assistant**, *Florida State University*, Fall 2018 - Spring 2019
@@ -37,8 +37,9 @@ I am also working on an undergraduate honor's thesis project under the guidance 
 
 #### Honors/Awards/Other
 * **HSF Scholar** (2019 - 2020, 2020 - 2021)
-* **President's List** (Fall 2017, Fall 2018)
+* **President's List** (Fall 2017, Fall 2018, Fall 2020)
 * **Dean's List** (Spring 2019, Fall 2019, Spring 2020)
+* **Honors in the Major**, Mathematics
 * **President**, Society of Undergraduate Mathematics Majors (SUMS) at FSU
 
 #### Contact
