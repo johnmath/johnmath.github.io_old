@@ -15,7 +15,7 @@ I am also working on an undergraduate honor's thesis project under the guidance 
 ### Brief Background
 
 #### Education
-* **Bachelor of Science in Mathematics**, *Florida State University*, 2021 (3.8/4.0)
+* **Bachelor of Science in Mathematics**, *Florida State University*, 2021 (3.80/4.00)
 
 #### Work Experience
 * **Tutorial Assistant**, *Florida State University*, Fall 2018 - Spring 2019
