@@ -15,12 +15,12 @@ I am also working on an undergraduate honor's thesis project under the guidance 
 ### Brief Background
 
 #### Education
-* **Bachelor of Science in Mathematics**, *Florida State University*, 2021 (3.80/4.00)
+* **Bachelor of Science in Mathematics**, *[Florida State University](https://math.fsu.edu/)*, 2021 (3.80/4.00)
 
 #### Work Experience
-* **Tutorial Assistant**, *Florida State University*, Fall 2018 - Spring 2019
+* **Tutorial Assistant**, *[Florida State University](https://math.fsu.edu/)*, Fall 2018 - Spring 2019
 * **Software Engineering Intern**, *[Sphero](https://sphero.com/)* (Boulder, CO), Summer 2019
-* **Learning Assistant**, *Florida State University*, Fall 2019
+* **Learning Assistant**, *[Florida State University](https://math.fsu.edu/)*, Fall 2019
 * **Machine Learning Intern**, *[NewSci, LLC](newsci.ai)* (Tallahassee, FL), Fall 2019 - Present
 * **Software Engineering Intern (iOS)**, *[Intuit](https://www.intuit.com/)* (Mountain View, CA), Summer 2020
 * **Incoming Software Engineering Intern**, *[Intuit](https://www.intuit.com/)* (Mountain View, CA), Summer 2021
