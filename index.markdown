@@ -19,7 +19,7 @@ My academic interests generally lie within the intersection of theoretical compu
 
 #### Technical Experience
 * **Software Engineer Intern**, *[Sphero](https://sphero.com/)* (Boulder, CO), Summer 2019
-* **Machine Learning Intern**, *[NewSci, LLC](newsci.ai)* (Tallahassee, FL), Fall 2019 - Spring 2021
+* **Machine Learning Intern**, *[NewSci, LLC](https://www.newsci.ai)* (Tallahassee, FL), Fall 2019 - Spring 2021
 * **Software Engineer Intern (iOS)**, *[Intuit](https://www.intuit.com/)* (Mountain View, CA), Summer 2020
 * **Software Engineer Intern (iOS)**, *[Intuit](https://www.intuit.com/)* (Mountain View, CA), Summer 2021
 
