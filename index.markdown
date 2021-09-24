@@ -7,7 +7,7 @@ title: About Me
 
 I am a first-year Computer Science PhD Student at Northeastern University, where I am advised by [Jonathan Ullman](https://www.ccs.neu.edu/home/jullman/) and [Alina Oprea](https://www.ccs.neu.edu/home/alina/). I recently completed my B.S. in Pure Mathematics at Florida State Univerity and completed my undergaduate thesis under the guidance of [Alec Kercheval](https://www.math.fsu.edu/~kercheva/) and [Nathan Crock](https://www.sc.fsu.edu/people?uid=ndc08).
 
-My academic interests generally lie within the intersection of theoretical computer science and machine learning. I am also interested in differential privacy, computer vision, and algorithms.
+My academic interests generally lie within the intersection of theoretical computer science and machine learning. I am also interested in differential privacy, computer vision, and algorithms. Last summer, I workeed as a Software Engineer intern at Intuit, where I worked on new features for the Money by QuickBooks app.
 
 
 ### Brief Background
