@@ -3,7 +3,7 @@ layout: page
 title: About Me
 ---
 
-<img src="media/me.jpg" alt="me" style="width:200px;"/>
+<img src="media/me.jpeg" alt="me" style="width:200px;"/>
 
 I am a first-year Computer Science PhD Student at Northeastern University, where I am advised by [Jonathan Ullman](https://www.ccs.neu.edu/home/jullman/) and [Alina Oprea](https://www.ccs.neu.edu/home/alina/). I recently completed my B.S. in Pure Mathematics at Florida State Univerity and completed my undergaduate thesis under the guidance of [Alec Kercheval](https://www.math.fsu.edu/~kercheva/) and [Nathan Crock](https://www.sc.fsu.edu/people?uid=ndc08).
 
