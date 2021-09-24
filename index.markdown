@@ -24,7 +24,7 @@ My academic interests generally lie within the intersection of theoretical compu
 * **Software Engineer Intern (iOS)**, *[Intuit](https://www.intuit.com/)* (Mountain View, CA), Summer 2021
 
 #### Teaching Experience
-* **Tutorial Assistant (College Algebra - Calculus III)**, *[Florida State University](https://math.fsu.edu/)*, Fall 2018 - Spring 2019
+* **Tutorial Assistant (MAC 1105 - 2313)**, *[Florida State University](https://math.fsu.edu/)*, Fall 2018 - Spring 2019
 * **Learning Assistant (Calulus I)**, *[Florida State University](https://math.fsu.edu/)*, Fall 2019
 
 #### Languages
