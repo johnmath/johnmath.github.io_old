@@ -7,23 +7,25 @@ title: About Me
 
 I am a first-year Computer Science PhD Student at Northeastern University, where I am advised by [Jonathan Ullman](https://www.ccs.neu.edu/home/jullman/) and [Alina Oprea](https://www.ccs.neu.edu/home/alina/). I recently completed my B.S. in Pure Mathematics at Florida State Univerity and completed my undergaduate thesis under the guidance of [Alec Kercheval](https://www.math.fsu.edu/~kercheva/) and [Nathan Crock](https://www.sc.fsu.edu/people?uid=ndc08).
 
-My academic interests generally lie within the intersection of theoretical computer science and machine learning. I am also interested in differential privacy, computer vision, and algorithms.
+My academic interests generally lie within the intersection of theoretical computer science and machine learning. I am also interested in differential privacy, computer vision, and algorithms. Last summer, I workeed as a Software Engineer intern at Intuit, where I worked on new features for the Money by QuickBooks app.
 
 
 ### Brief Background
 
 #### Education
+* **Doctor of Philosophy in Computer Science**, *[Northeastern University](https://www.khoury.northeastern.edu/)*, 2021 - Present
 * **Bachelor of Science in Mathematics**, *[Florida State University](https://math.fsu.edu/)*, 2021 (3.80/4.00)
     * Honors Thesis: "A Standardized Approach to Studying the Double Descent Phenomenon"
-* **Doctor of Philosophy in Computer Science**, *[Northeastern University](https://www.khoury.northeastern.edu/)*, 2021 - Present
 
-#### Work Experience
-* **Tutorial Assistant**, *[Florida State University](https://math.fsu.edu/)*, Fall 2018 - Spring 2019
-* **Software Engineering Intern**, *[Sphero](https://sphero.com/)* (Boulder, CO), Summer 2019
-* **Learning Assistant**, *[Florida State University](https://math.fsu.edu/)*, Fall 2019
-* **Machine Learning Intern**, *[NewSci, LLC](newsci.ai)* (Tallahassee, FL), Fall 2019 - Present
+#### Technical Experience
+* **Software Engineer Intern**, *[Sphero](https://sphero.com/)* (Boulder, CO), Summer 2019
+* **Machine Learning Intern**, *[NewSci, LLC](newsci.ai)* (Tallahassee, FL), Fall 2019 - Spring 2021
 * **Software Engineer Intern (iOS)**, *[Intuit](https://www.intuit.com/)* (Mountain View, CA), Summer 2020
 * **Software Engineer Intern (iOS)**, *[Intuit](https://www.intuit.com/)* (Mountain View, CA), Summer 2021
+
+#### Teaching Experience
+* **Tutorial Assistant (College Algebra - Calculus III)**, *[Florida State University](https://math.fsu.edu/)*, Fall 2018 - Spring 2019
+* **Learning Assistant (Calulus I)**, *[Florida State University](https://math.fsu.edu/)*, Fall 2019
 
 #### Languages
 * Python, C++, Swift, JavaScript, MATLAB, Latex
