@@ -17,11 +17,10 @@ My academic interests generally lie within the intersection of theoretical compu
     * Honors Thesis: "A Standardized Approach to Studying the Double Descent Phenomenon"
 * **Doctor of Philosophy in Computer Science**, *[Northeastern University](https://www.khoury.northeastern.edu/)*, 2021 - Present
 
-#### Work Experience
-* **Tutorial Assistant**, *[Florida State University](https://math.fsu.edu/)*, Fall 2018 - Spring 2019
-* **Software Engineering Intern**, *[Sphero](https://sphero.com/)* (Boulder, CO), Summer 2019
-* **Learning Assistant**, *[Florida State University](https://math.fsu.edu/)*, Fall 2019
-* **Machine Learning Intern**, *[NewSci, LLC](newsci.ai)* (Tallahassee, FL), Fall 2019 - Present
+#### Technical Experience
+
+* **Software Engineer Intern**, *[Sphero](https://sphero.com/)* (Boulder, CO), Summer 2019
+* **Machine Learning Intern**, *[NewSci, LLC](newsci.ai)* (Tallahassee, FL), Fall 2019 - Spring 2021
 * **Software Engineer Intern (iOS)**, *[Intuit](https://www.intuit.com/)* (Mountain View, CA), Summer 2020
 * **Software Engineer Intern (iOS)**, *[Intuit](https://www.intuit.com/)* (Mountain View, CA), Summer 2021
 
