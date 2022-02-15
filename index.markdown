@@ -44,4 +44,4 @@ My academic interests generally lie within the intersection of theoretical compu
 * **President's List** (Fall 2017, Fall 2018, Fall 2020)
 * **Dean's List** (Spring 2019, Fall 2019, Spring 2020, Spring 2021)
 * **Honors in the Major**, Mathematics
-* **President**, Society of Undergraduate Mathematics Majors (SUMS) at FSU test
+* **President**, Society of Undergraduate Mathematics Majors (SUMS) at FSU
