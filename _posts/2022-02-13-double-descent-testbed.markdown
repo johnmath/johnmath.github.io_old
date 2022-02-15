@@ -6,9 +6,16 @@ categories: machine learning
 ---
 
 
-1. [The Double Descent Phenomenon ](#markdown-header-the-double-descent-phenomenon)
-2. [Why We Created the Testbed](#markdown-header-why-we-created-the-testbed)
-3. [Project Architecture](#markdown-header-project-architecture)
+1. [The Double Descent Phenomenon ](#the-double-descent-phenomenon)
+2. [Why We Created the Testbed](#why-we-created-the-testbed)
+3. [Project Architecture](#project-architecture)
+    1. [Data](#data)
+    2. [Models](#models)
+        1. [Multilayer Perceptron](#multilayer-perceptron)
+        2. [Random Forest](#random-forest)
+    3. [Utils](#utils)
+        1. [Parameter Count Generation Algorithm](#parameter-count-generation-algorithm)
+        2. [Double Descent Training Loop](#double-descent-training-loop)
 
 ## The Double Descent Phenomenon 
 
