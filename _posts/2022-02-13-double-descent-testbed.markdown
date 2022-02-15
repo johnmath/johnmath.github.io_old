@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Double Descent Testbed"
-date:   2022-02-12 20:35:00 -0400
+date:   2022-02-13 20:35:00 -0400
 categories: machine learning
 ---
 
