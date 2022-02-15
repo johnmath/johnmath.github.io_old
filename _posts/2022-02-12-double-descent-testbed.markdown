@@ -84,33 +84,6 @@ When designing the neural network wrapper, we noticed that each of the models to
 
 The algorithm takes a list of previous parameter counts, a list of previous test losses, a flag to determine if the interpolation threshold has been reached, and a tuning parameter $\alpha$ as input
 
-```python
-def Parameter_Count_Generation(param_counts, test_losses, past_interpolation_threshold, alpha):
-    
-    current_count = param_counts[-1] # Take last element of param_counts
-    
-    # Weight more recent parameter counts more heavily
-    weight_vector = [1/n, ... 1/2, 1] # where n = len(param_counts)
-    
-    poly = fit_polynomial(param_counts, losses, w)
-    
-    # Examine the first derivative of the polynomial 
-    dy = dy_poly(current_count + eps)
-    
-    if dy < 0:
-        sgn = 1
-    else:
-        sgn = 0
-        past_interpolation_threshold = True
-        
-    next_count = sgn*max(alpha * dy, 3) + 1
-    
-    if sgn and past_interpolation_threshold:
-        return ceil(next_count) + current_count + 10, past_interpolation_threshold
-    else
-        return ceil(next_count) + current_count, past_interpolation_threshold
-```
-
 <img src="media/dd_2.gif" alt="param_gen" width="70%">
 <figcaption> Fig 8. Our Parameter Counts Generation Algorithm Running on a Synthetic Double Descent Curve<\figcaption>
 
@@ -120,48 +93,4 @@ Each of the models in the testbed has an associated *double_descent* method that
 
 If there is a pre-spectified list of parameters, the double descent training loop is the following:
 
-```python
-for i in range(len(param_counts)):
-    
-    current_index = i
-    
-    current_parameter_count = parameter_counts[current_index]
-    
-    # Creates new model with specified number of parameters
-    reinitialize_model(current_parameter_count)
-    
-    losses = train_model()
-
-    # Log losses into TensorBoard or arrays
-```
-
-
 If the user wants to generate the parameter counts, after a single iteration of training (above), the double descent training loop is the following:
-
-```python
-
-if generate_parameters_enabled:
-    
-    steps_past_dd = 0
-    
-    past_interpolation_threshold = False
-    
-    while steps_past_dd < 4:
-        
-        next_count, past_interpolation_threshold = Parameter_Count_Generation(parameter_counts, test_losses)
-        
-        parameter_counts.append(next_count)
-        
-        current_parameter_counts = parameter_counts[current_index]
-        
-        reinitialize_model(current_parameter_count)
-    
-        losses = train_model()
-        
-        # Log losses into TensorBoard or arrays
-        
-        current_index += 1
-        
-        if past_interpolation_threshold:
-            steps_past_dd += 1
-```
