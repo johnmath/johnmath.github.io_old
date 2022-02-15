@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Double Descent Testbed"
-date:   2022-12-02 20:35:00 -0400
+date:   2022-02-12 20:35:00 -0400
 categories: machine learning
 ---
 
@@ -166,9 +166,4 @@ if generate_parameters_enabled:
         
         if past_interpolation_threshold:
             steps_past_dd += 1
-```
-
-
-```python
-
 ```
