@@ -11,14 +11,14 @@ categories: machine learning
 
 Modern machine learning models, such as deep neural networks, have given us the ability to observe how models with immense hypothesis classes (i.e. the set of functions that are learnable by the mode) are able to perform on complex, high dimensional data sets. Based on what we know about the bias-variance tradeoff, if we keep on increasing the complexity of our model (keeping the dataset fixed), we will reach a model capacity that causes the model to overfit and perform worse on out-of-sample data. However, today's neural networks seem to contradict this. Even with millions of parameters, they seemingly perform better than smaller models on most tasks. This has led to the conventional wisdom in the deep learning community that "larger models are better". The ability of massive machine learning models to consistently outperform smaller models has led researchers to believe that our current model of the bias-variance tradeoff may be incomplete. 
 
-Recent empirical evidence (citations Belkin, OpenAI) suggests that there exists more than one "training regime" in today's machine learning practices. This second regime is proposed to exhibit itself when our hypothesis class is so large that our model is well past simply interpolating the data (i.e. when our model's empirical loss, $\mathcal{L}_{S}(h) = 0$). Typically, we would consider a model with $0$ training loss to be overfitting the data, but this may not be the case. [A 2018 paper by Belkin et al.](https://arxiv.org/pdf/1806.09471.pdf) shows that interpolating the training data can achieve good generalization in nonparametric regression problems.
+Recent empirical evidence (citations Belkin, OpenAI) suggests that there exists more than one "training regime" in today's machine learning practices. This second regime is proposed to exhibit itself when our hypothesis class is so large that our model is well past simply interpolating the data (i.e. when our model's empirical loss, $$\mathcal{L}_{S}(h) = 0$$). Typically, we would consider a model with $$0$$ training loss to be overfitting the data, but this may not be the case. [A 2018 paper by Belkin et al.](https://arxiv.org/pdf/1806.09471.pdf) shows that interpolating the training data can achieve good generalization in nonparametric regression problems.
 
 <p float="left">
     <img src="media/binary_sing.gif" alt="sing_binary" width="400">
     <img src="media/sine_nw_singular.gif" alt="sing_sine" width="400">
     <figcaption> Fig 1. Our Reproduction of the Interpolating Nadaraya-Watson Estimator for Classification and Regression <\figcaption>
-</p>
-
+<\p>
+    
 Since this paper was published, [this idea has been extended to deep learning models](https://openai.com/blog/deep-double-descent/), and the results have matched Belkin's results with smaller-scale nonparametric regression. 
 
 
@@ -26,7 +26,7 @@ Since this paper was published, [this idea has been extended to deep learning mo
 <figcaption> Fig 2. The Double Descent Curve <\figcaption>
 
 
-Because of the two U-shaped curves in the plot of test risk vs model capacity, this phenomenon where the model achieves better generalization as the capacity of the hypothesis class, $\mathcal{H}$, increases is called **the double descent phenomenon**.
+Because of the two U-shaped curves in the plot of test risk vs model capacity, this phenomenon where the model achieves better generalization as the capacity of the hypothesis class, $$\mathcal{H}$$, increases is called **the double descent phenomenon**.
 
 ## Why We Created the Testbed
 
@@ -45,7 +45,7 @@ The project consists of four sub-modules: **models**, **data**, **utils**, and *
 
 ### Data
 
-The **data** module has two versions of the MNIST dataset: a PyTorch implementation and a scikit-learn implementation. The PyTorch implementation contains two PyTorch dataloaders along with exposed parameters such as batch sizes and number of training samples. The PyTorch dataloaders are iterable objects that contain a dataset object within them. By using a dataloader, we can apply transformations to the data and shuffle the dataset prior to training our model. The scikit-learn implementation of MNIST simply returns an $N \times 784$ matrix where $N$ is the number of training samples and each row is a 784-dimensional vector that encodes a 28 x 28 image. Both of these implementations download and save the dataset to a local repository where it can be reused without having to wait for the data to be downloaded a second time. 
+The **data** module has two versions of the MNIST dataset: a PyTorch implementation and a scikit-learn implementation. The PyTorch implementation contains two PyTorch dataloaders along with exposed parameters such as batch sizes and number of training samples. The PyTorch dataloaders are iterable objects that contain a dataset object within them. By using a dataloader, we can apply transformations to the data and shuffle the dataset prior to training our model. The scikit-learn implementation of MNIST simply returns an $$N \times 784$$ matrix where $$N$$ is the number of training samples and each row is a 784-dimensional vector that encodes a 28 x 28 image. Both of these implementations download and save the dataset to a local repository where it can be reused without having to wait for the data to be downloaded a second time. 
 
 <img src="media/mnist.jpeg" alt="MNIST" width="40%">
 <figcaption> Fig 4. A Sample of Images from the MNIST Dataset<\figcaption>
@@ -54,7 +54,7 @@ The **data** module has two versions of the MNIST dataset: a PyTorch implementat
 
 #### Multilayer Perceptron
 
-The multilayer perceptron is made up of 3 layers, an input layer, a hidden layer, and an output layer (This type of model is sometimes referred to as a two-layer neural network). All three have variable size depending on the dataset that is being trained on. The input layer has $d = n \cdot m$ units where $n$ and $m$ are the dimensions of the input data, as the images are flattened before being passed through the network. The hidden layer has $h_{i}$ units, where $h_{i}$ is computed using a desired number of total parameters and the formula for total parameters in Figure 3. The output layer has $K$ units where $K$ is the number of output classes. This model also has ReLU activation functions on both the input layer and hidden layer.
+The multilayer perceptron is made up of 3 layers, an input layer, a hidden layer, and an output layer (This type of model is sometimes referred to as a two-layer neural network). All three have variable size depending on the dataset that is being trained on. The input layer has $$d = n \cdot m$$ units where $$n$$ and $$m$$ are the dimensions of the input data, as the images are flattened before being passed through the network. The hidden layer has $$h_{i}$$ units, where $$h_{i}$$ is computed using a desired number of total parameters and the formula for total parameters in Figure 3. The output layer has $$K$$ units where $$K$$ is the number of output classes. This model also has ReLU activation functions on both the input layer and hidden layer.
 
 
 <img src="media/param_counts_eq.png" alt="audit_params" width="400">
@@ -80,9 +80,9 @@ The random forest classifier wrapper follows suit by exposing certain features a
 
 #### Parameter Count Generation Algorithm
 
-When designing the neural network wrapper, we noticed that each of the models took a while to train. Even though the individual models are quite small, when training several of them sequentially for a large number of epochs, single experiments could take several days. To help reduce the time that it takes to run experiments, we developed a parameter count generation algorithm to intelligently choose the next model to train using the number of parameters in the previous model and the final test loss that the model produced. This allowed us to avoid iterating through model capacities (i.e numbers of parameters in the model) at a fixed, constant value. The algorithm was designed to have the highest resolution around the area where models interpolate, or overfit, the data, as this is where the double descent curve is supposed to exhibit itself. We do this by assuming that the double descent curve should look roughly like a $3^{rd}$ degree polynomial, fitting a $3^{rd}$ degree polynomial to the model capacity vs. test loss graph, and examining the first derivative of the polynomial that was fit to the data. Algorithm 1 shows the pseudocode for this parameter count generation algorithm.
+When designing the neural network wrapper, we noticed that each of the models took a while to train. Even though the individual models are quite small, when training several of them sequentially for a large number of epochs, single experiments could take several days. To help reduce the time that it takes to run experiments, we developed a parameter count generation algorithm to intelligently choose the next model to train using the number of parameters in the previous model and the final test loss that the model produced. This allowed us to avoid iterating through model capacities (i.e numbers of parameters in the model) at a fixed, constant value. The algorithm was designed to have the highest resolution around the area where models interpolate, or overfit, the data, as this is where the double descent curve is supposed to exhibit itself. We do this by assuming that the double descent curve should look roughly like a $$3^{rd}$$ degree polynomial, fitting a $$3^{rd}$$ degree polynomial to the model capacity vs. test loss graph, and examining the first derivative of the polynomial that was fit to the data. Algorithm 1 shows the pseudocode for this parameter count generation algorithm.
 
-The algorithm takes a list of previous parameter counts, a list of previous test losses, a flag to determine if the interpolation threshold has been reached, and a tuning parameter $\alpha$ as input
+The algorithm takes a list of previous parameter counts, a list of previous test losses, a flag to determine if the interpolation threshold has been reached, and a tuning parameter $$\alpha$$ as input
 
 <img src="media/dd_2.gif" alt="param_gen" width="70%">
 <figcaption> Fig 8. Our Parameter Counts Generation Algorithm Running on a Synthetic Double Descent Curve<\figcaption>
